@@ -64,3 +64,74 @@ header button{
     padding: 21px 24px;
     cursor: pointer;
 }
+
+/* Web Development Section Syling */
+.web-development{
+    max-width: 1140px;
+    margin: 0px auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    border: none;
+    border-radius: 16px;
+}
+.web-development-heading, .web-development-sub-heading{
+    text-align: center;
+}
+.web-development-heading{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.web-development-sub-heading{
+    margin-top: 0px;
+    color: #0D1321;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    padding: 0px 130px;
+    margin-bottom: 48px;
+}
+.web-development-card{
+    max-width: 946px;
+    margin: 0px auto;
+    padding: 48px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+    margin-bottom: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px rgba(13, 19, 33, 0.108);
+}
+.web-development-card-heading{
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.web-development-card-sub-heading{
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+}
+.web-development-card button{
+    padding: 12px 20px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #0D1321;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.web-development-card-img img{
+    height: 240px;
+}
