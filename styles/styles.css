@@ -23,6 +23,13 @@ header button{
     border: 1px solid #0D1321;
     padding: 17px 24px;
     cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+header button:hover{
+    background-color: #0D1321;
+    color: white;
+
 }
 
 /* Banner Section Styling */
@@ -61,8 +68,14 @@ header button{
     border: none;
     padding: 21px 24px;
     cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
 }
-
+.banner-btn:hover{
+    background-color: white;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+}
 /* Web Development Section Syling */
 .web-development{
     max-width: 1140px;
@@ -71,8 +84,9 @@ header button{
     padding: 80px 97px;
     border: none;
     border-radius: 16px;
-    margin-top: 32px;
+    margin-top: 80px;
     box-shadow: 0px 0px 15px rgba(13, 19, 33, 0.108);
+    box-sizing: border-box;
 }
 .web-development-heading, .web-development-sub-heading{
     text-align: center;
@@ -126,6 +140,11 @@ header button{
     border-radius: 8px;
     margin-bottom: 0px;
     cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+.web-development-card button:hover{
+    background-color: #0D1321;
+    color: white;
 }
 .web-development-card-img img{
     height: 240px;
@@ -189,10 +208,159 @@ header button{
     color: #0D1321;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: bold;
 }
 .all-skills{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 24px;
+}
+
+/* Learning Tech Section Styling */
+.learning-section{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.learning-section-heading, .learning-section-sub-heading{
+    text-align: center;
+}
+.learning-section-heading{
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.learning-section-sub-heading{
+    margin-top: 0px;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+
+.learning-techs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.tech{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px rgba(13, 19, 33, 0.108);
+
+    padding: 40px;
+}
+.tech-img img{
+    height: 108px;
+}
+.tech-name{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: #0D1321;
+    font-weight: bolder;
+}
+.tech-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.tech-text-content a{
+    color: #0D1321;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Form section styling */
+.contact h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    /* font-family: Raleway; */
+    width: 528px;
+    
+}
+.contact {
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px rgba(13, 19, 33, 0.108);
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+.contact-form{
+    width: 497px;
+}
+.label-styles{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.input-styles{
+    background-color: white;
+    padding: 20px 32px;
+    font-family: Inter;
+    font-size: 20px;
+    width: 87%;
+    border: none;
+    margin: 0px;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0px 0px 15px rgba(13, 19, 33, 0.108);
+}
+.contact-btn{
+    background-color: #0D1321;
+    color: white;
+    padding: 20px 32px;
+    border:  none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: white;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+}
+/* Footer Section Styling */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 526px;
+
+    padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #0D1321;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
